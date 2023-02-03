@@ -1,38 +1,15 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import Body from "./componets/body";
-import { Header } from "./componets/heder";
-import Footer from "./componets/footer";
-/*
-    *header
-      -logo 
-      -list item
-      -cart
-    *body
-     -serch bar
-     -restorent
-       - resocart(many)
-        -images
-        -name
-        -rating 
-        -prize
-    *footer
-      -links
-      -copywrite    
-    */
-//jsx
+import Body from "./componets/body.js";
+import Nav from "./componets/nav.js";
 
-// props -property //
-
-const Appylayout = () => {
+const App = () => {
   return (
     <>
-      <Header />
       <Body />
-      <Footer />
+      <Nav />
     </>
   );
 };
 const root = ReactDOM.createRoot(document.getElementById("root"));
-//root.render(heading2);
-root.render(<Appylayout />);
+root.render(<App />);
