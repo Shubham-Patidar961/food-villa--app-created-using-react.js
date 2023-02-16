@@ -1,37 +1,36 @@
-.header {
+body {
+  margin: 0rem 0.85rem 0rem 0.85rem;
+}
+.nav-bar {
   display: flex;
   justify-content: space-between;
-  margin: 10px;
-  border: 1px solid black;
-  padding: 5px;
-  background-color: red;
-  color: white;
+  background-color: rgb(231, 36, 36);
 }
-.name-items > ul {
-  list-style: none;
+.nav-1 {
   display: flex;
 }
-.name-items > ul > li {
-  padding: 10px;
+.nav-2 {
+  display: flex;
+  align-items: center;
 }
-.logo {
-  width: 100px;
+ul {
+  margin: 0rem;
 }
-.food-1 {
-  width: 300px;
-}
-
-.card {
-  width: 300px;
-  border: 1px solid black;
-  padding: 5px;
-  margin: 8px;
-}
-.card > img {
-  width: 300px;
+ul > li {
+  list-style: none;
+  padding: 1rem;
+  color: white;
 }
 
-.restrolist {
+/* css to resto cart */
+.restocart {
+  height: 500px;
+  width: 550px;
+  padding: 1rem;
+  box-sizing: border-box;
+  border: 2px solid black;
+}
+.restocards {
   display: flex;
   flex-wrap: wrap;
 }

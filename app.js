@@ -1,13 +1,16 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import Body from "./componets/body.js";
-import Nav from "./componets/nav.js";
-
+import Nav from "./componets/header";
+import Body from "./componets/Body";
 const App = () => {
   return (
     <>
-      <Body />
+      {/*navigation bar
+       * nav items */
+      /*body *restocart *restiinfo *restocart *rating *cusin  */
+      /* footer*/}
       <Nav />
+      <Body />
     </>
   );
 };
