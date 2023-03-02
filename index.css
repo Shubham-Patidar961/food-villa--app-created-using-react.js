@@ -1,3 +1,10 @@
+* {
+  margin: 0rem;
+  padding: 0rem;
+}
+a {
+  text-decoration: none;
+}
 body {
   margin: 0rem 0.85rem 0rem 0.85rem;
 }
@@ -21,16 +28,82 @@ ul > li {
   padding: 1rem;
   color: white;
 }
-
+.skp {
+  text-decoration: none;
+  color: white;
+}
 /* css to resto cart */
 .restocart {
-  height: 500px;
-  width: 550px;
-  padding: 1rem;
+  height: 330px;
+  width: 240px;
   box-sizing: border-box;
   border: 2px solid black;
+  margin: 0.65rem;
+  padding: 0.6rem;
+  transition: all.2s;
 }
+.restocart:hover {
+  transform: scale(1.07);
+}
+
 .restocards {
   display: flex;
   flex-wrap: wrap;
+}
+.img {
+  width: 220px;
+}
+button {
+  margin-left: 0.25rem;
+}
+.rating {
+  padding: 0.5rem;
+  background-color: green;
+  width: 10%;
+  color: white;
+}
+h3 {
+  color: rgb(193, 80, 80);
+  margin: 0.25rem;
+}
+h5 {
+  color: rgb(95, 93, 90);
+  margin-bottom: 0.5rem;
+}
+.serchfield {
+  margin: 0.75rem;
+}
+/* shimmer ul */
+.restocart2 {
+  height: 330px;
+  width: 240px;
+  box-sizing: border-box;
+  border: 2px solid black;
+  margin: 0.65rem;
+  padding: 0.6rem;
+}
+
+.shimer {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.cart2 {
+  width: 200px;
+  height: 150px;
+  background-color: rgba(180, 174, 174, 0.579);
+  margin: 0.65rem;
+}
+.heading1 {
+  background-color: rgba(180, 174, 174, 0.579);
+  height: 15px;
+  margin: 0.65rem;
+}
+.heading2 {
+  background-color: rgba(180, 174, 174, 0.579);
+  height: 15px;
+  margin: 0.65rem;
+}
+.restodetails {
+  display: flex;
 }
